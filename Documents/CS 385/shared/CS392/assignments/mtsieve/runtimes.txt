@@ -1,0 +1,22 @@
+# /*******************************************************************************
+ # Name        : runtimes.txt
+ # Author      : Sanjana Madhu and Lasya Josyula
+ # Date        : 04/23/2021
+ # Description : 
+ # Pledge      : I pledge my honor that I have abided by the Stevens Honor System.
+ # ******************************************************************************/
+
+./mtsieve -s100 -e200000000 -t1 : 0m4.354s
+./mtsieve -s100 -e200000000 -t2 : 0m2.475s
+./mtsieve -s100 -e200000000 -t3 : 0m2.062s
+./mtsieve -s100 -e200000000 -t4 : 0m1.663s
+./mtsieve -s100 -e200000000 -t5 : 0m1.623s
+./mtsieve -s100 -e200000000 -t6 : 0m1.590s
+./mtsieve -s100 -e200000000 -t7 : 0m1.562s
+./mtsieve -s100 -e200000000 -t8 : 0m1.555s
+
+What CPU do you have? Use your previous lab cpumodel to answer that question.
+Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+
+Does the time scale linearly with the number of threads? If not, does it continue to improve, plateau, or start to decline? Explain your findings in just a few sentences.
+No, time does not scale linearly. Time seems to improve, but then slowly plateau. In some cases, it starts to decline marginally.
